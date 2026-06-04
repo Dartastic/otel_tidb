@@ -14,8 +14,8 @@ void main() {
       expect(tidbInstrumentationSuppressed(), isFalse);
     });
 
-    test('TidbResult fields default null', () {
-      const r = TidbResult();
+    test('TiDBResult fields default null', () {
+      const r = TiDBResult();
       expect(r.statusCode, isNull);
     });
   });
